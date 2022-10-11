@@ -7,6 +7,7 @@ const cs = classNames.bind(styles)
 const App = () => {
   return (
     <div>
+      
       <div className={cs('title')}>Junho's portfolio</div>
     </div>
   );
