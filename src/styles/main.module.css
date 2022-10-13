@@ -1,5 +1,95 @@
+@import url('https://cdn.jsdelivr.net/gh/quiple/hbios-sys@latest/hbios-sys.css');
+
 .title {
+    color: white;
     text-align: center;
-    margin-top: 23%;
     font-size: 50px;
 }
+
+.img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.marquee {
+    font-family: HBIOS-SYS, monospace;
+    font-size: 20px;
+}
+
+.img-container {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    width: 310px;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 2%;
+    font-family: HBIOS-SYS, monospace;
+    overflow: hidden;
+    /*border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation: typing1 2.0s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+.name2 {
+    width: 369px;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 2%;
+    font-family: HBIOS-SYS, monospace;
+    overflow: hidden;
+    /*border-right: .15em solid #911d57;  The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation: typing2 2.0s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+.name3 {
+    width: 266px;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 2%;
+    font-family: HBIOS-SYS, monospace;
+    overflow: hidden;
+    border-right: .15em solid #911d57; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation: typing3 2.0s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+.h1 {
+    writing-mode: vertical-rl;
+}
+
+@media (max-width: 800px) {
+    .small-tomato {
+        background-color: tomato;
+    }
+}
+
+@keyframes typing1 {
+    from { width: 0 }
+    to { width: 310px }
+}
+
+@keyframes typing2 {
+    from { width: 0 }
+    to { width: 369px }
+}
+@keyframes typing3 {
+    from { width: 0}
+    to { width: 266px}
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+
